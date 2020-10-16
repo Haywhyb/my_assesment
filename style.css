@@ -1,0 +1,679 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media(max-width: 750px){
+    #container{
+        width: 100%;
+    }
+    #menu{
+        position: relative;
+        background-color: rgb(50, 231, 50);
+        width: 100%;
+        height: 90px;
+        display: block;
+    }
+    #treehub{
+        display: none;
+    }
+    #menu ul a li{
+        display: block;
+        border: solid 1px;
+        list-style: none;
+        padding: 10px;
+        margin: auto;
+        background-color: rgb(50, 231, 50);
+        text-align: center;
+        outline: none;
+    }
+    #logo{
+        
+        width: 100%;
+        text-decoration: none;
+        /* height: 60px; */
+    }
+    .menub{
+        display: none;
+    }
+    #drop{
+        color: black;
+        position: absolute;
+        /* left: 340px; */
+        margin-bottom: 70px;
+        display: block;
+        right: 0;
+        top: 0;
+    }
+    /* #maincontainer{
+        background-color: #555;
+        height: 500px;
+        color: white;
+      
+    } */
+    #image1{
+        background-image: url("images/planting.jpg");
+        /* height: 1000px; */
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+    }
+    #heads{
+        margin: auto;
+        text-align: center;
+    }
+    .btn{
+        width: 140px;
+        height: 50px;
+        margin-top: 30px;
+        background-color: rgb(50, 231, 50);
+        color: white;
+      
+       
+        border: none;
+        border-radius: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: medium;
+      
+
+    }
+    /* #heads h3 a{
+        color: white;
+    } */
+    .btn:hover{
+        cursor: pointer;
+        background-color: yellowgreen;
+
+
+    }
+    button{
+        cursor: pointer;
+        background-color: yellowgreen;
+    }
+    #image1 h2{
+        color: rgb(22, 206, 46);
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 20px;
+
+    }
+    #image1 h3{
+        text-align: center;
+        text-decoration: none;
+        /* color: rgb(80, 129, 6); */
+        color: whitesmoke;
+        margin-bottom: 20px;
+    }
+    #words h3{
+        text-align: center;
+    }
+    #words p{
+        text-align: center;
+    }
+    #img2{
+        background-image: url("images/planters.jpg");
+        
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        color: rgb(80, 129, 6);
+
+    }
+    #heading{
+        color: rgb(17, 27, 2);
+        padding-top: 120px;
+        margin: auto;
+        text-align: center;
+    }
+    #imgblur{
+        width: 100%;
+        height: 200px;
+        /* background-color: rgba(0, 0, 0.5, 0.2); */
+        position: absolute;
+        
+    }
+   #heading button{
+        width: 190px;
+        height: 50px;
+        background-color: rgb(50, 231, 50);
+        color: white;
+        
+        border: none;
+        border-radius: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+      
+    }
+    #heading button:hover{
+        cursor: pointer;
+        transition: ease-out 1s;
+        background-color: yellowgreen;
+    }
+   #heading h2{
+        color: whitesmoke;
+        margin-top: 60px;
+        margin-bottom: 20px;
+   }
+    #city{
+        margin: 30px 30px;
+        color: rgb(80, 129, 6);
+        text-align: center;
+    }
+    #img3{
+        background-image: url("images/homeimg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        text-align: center;
+        
+    }
+    #img3 button{
+       margin-top: 120px;
+       width: 120px;
+       height: 50px;
+       text-decoration: none;
+       border: none;
+       border-radius: 5px;
+       background-color: green;
+       color: white;
+    }
+    #goal{
+        margin: 30px 30px;
+        color: rgb(80, 129, 6);
+        text-align: center;
+    }
+    #eco{
+        background-image: url("images/cityimg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        text-align: center;
+    }
+    #eco button{
+        margin-top: 80px;
+        width: 120px;
+        height: 50px;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        background-color: green; 
+        color: white;
+    }
+    #eco h3{
+        padding-top: 40px;
+        color: green;
+        text-align: center;
+    }
+    #blog{
+        color: green;
+        text-decoration: none;
+    }
+    #khan{
+        margin: 20px;
+        text-align: center;
+      
+    }
+    #khan2{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #hom{
+        background-image: url("images/hom.jpg");
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    #hom  h1{
+        padding-top: 130px;
+        color: greenyellow;
+        text-align: center;
+    }
+    #foot{
+        display: flex;
+        margin: auto;
+      
+        
+        
+    }
+    #foot1{
+        /* height: 450px; */
+        /* width: 200px; */
+        /* margin: 10px; */
+           
+    }
+    /* #foothead img{
+        padding-right: 35px;
+    } */
+    #footdetails{
+        text-align: center;
+    }
+    #foot1:hover{
+        color: greenyellow;
+        cursor: pointer;
+        transition: ease-out 0.5s;
+    }
+    #foot2{
+       /* margin: 10px; */
+    }
+    .foot3{
+        display: none;
+    }
+    #foot2details{
+        text-align: center;
+    }
+    #foot2:hover{
+        color: greenyellow;
+        cursor: pointer;
+        transition: ease-out 0.5s;
+    }
+    #bottom{
+        background-color: rgba(0,0, 0, 0.8);
+        color: white;
+        width: 100%;
+
+    }
+    #bottom h4 a{
+        text-decoration: none;
+        color: white;
+    }
+    input{
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+    }
+    #bottom h3 a{
+        text-decoration: none;
+        color: white;
+    }
+}
+/* MOBILE RESPONSIVE ENDS HERE */
+
+
+/* THIS IS THE CSS FOR MENU */
+@media(min-width:751px){
+#maincontainer{
+    position: relative;
+
+    background-color: rgb(50, 231, 50);
+    width: 100%;
+    height: 90px;
+    left: 0;
+    right: 0;
+   
+}
+#menu{
+    display: flex;
+    left:0;
+    right:0; 
+
+}
+
+.menub{
+  
+    position: absolute;
+    /* left: 340px; */
+
+    /* display: inline-flex; */
+    right: 155px;
+    top: 45px;
+    text-align: center;  
+}
+
+#drop{
+   display: none;
+  
+
+}
+.menub a  {
+    
+    text-decoration: none;
+    padding: 10px;
+   
+    margin: 5px;
+    background-color:whitesmoke;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    color: green;
+    /* display: inline-flex; */
+   
+}
+.menub a:hover{
+    background-color: greenyellow;
+}
+#menub a h2{
+    margin-top: 20px;
+}
+#treehub{
+    padding-top: 40px;
+    font-size: 40px;
+}
+/* ===========MAINCONTAINER STYLING ENDS HERE */
+#image1{
+    background-image: url("images/planting.jpg");
+    /* height: 1000px; */
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+#heads{
+    /* margin: auto; */
+    text-align: center;
+}
+.btn{
+    width: 240px;
+    height: 70px;
+    margin-top: 40px;
+    background-color: rgb(50, 231, 50);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+  
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: yellowgreen;
+
+
+}
+button{
+    cursor: pointer;
+    background-color: yellowgreen;
+}
+#image1 h2{
+    color: rgb(22, 206, 46);
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 350px;
+    font-size: 50px;
+
+}
+#image1 h3{
+    text-align: center;
+    text-decoration: none;
+    /* color: rgb(80, 129, 6); */
+    color:  greenyellow;
+    
+    margin: 20px;
+    padding-top: 150px;
+    /* ===============IMAGE DESIGNS ENDS HERE */
+}
+
+
+
+/* <!-- ============== DESIGNS FOR WORDS STARTS HERE --> */
+#words h3{
+    text-align: center;
+    font-size: 50px;
+}
+#words p{
+    text-align: center;
+    font-size: 30px;
+
+
+/* 
+    <!-- ============== DESIGNS FOR WORDS ENDS HERE --> */
+}
+
+
+
+/* <!-- ============DESIGNS FOR IMAGE2 STARTS HERE --> */
+#img2{
+    background-image: url("images/planters.jpg");
+    
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    color: rgb(80, 129, 6);
+
+}
+#heading{
+    color: rgb(17, 27, 2);
+    padding-top: 120px;
+    margin: auto;
+    text-align: center;
+}
+#imgblur{
+    width: 100%;
+    height: 200px;
+    /* background-color: rgba(0, 0, 0.5, 0.2); */
+    position: absolute;
+    
+}
+#heading button{
+    width: 190px;
+    height: 50px;
+    background-color: rgb(50, 231, 50);
+    color: white;
+    margin-top: 400px;
+    
+    border: none;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    
+  
+}
+#heading button:hover{
+    cursor: pointer;
+    transition: ease-out 1s;
+    background-color: yellowgreen;
+}
+#heading h2{
+    color: whitesmoke;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    
+    font-size: 60px;
+    /* <!-- ============DESIGNS FOR IMAGE2 ENDS HERE --> */
+}
+
+
+
+
+
+
+
+
+
+/* <!-- ============DESIGNS FOR IMAGE3 STARTS HERE --> */
+
+#city{
+    margin: 30px 30px;
+    color: rgb(80, 129, 6);
+    text-align: center;
+    font-size: 30px;
+}
+#img3{
+    background-image: url("images/homeimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+    
+}
+#img3 button{
+   margin-top: 120px;
+   width: 120px;
+   height: 50px;
+   text-decoration: none;
+   border: none;
+   border-radius: 5px;
+   background-color: green;
+   color: white;
+
+   /* <!-- ============DESIGNS FOR IMAGE3 ENDS HERE --> */
+}
+
+
+/* 
+<!-- =====================HEADING FOR GOAL STARTS HERE --> */
+
+#goal{
+    margin: 30px 30px;
+    color: rgb(80, 129, 6);
+    text-align: center;
+    /* <!-- =====================HEADING FOR GOAL ENDS HERE --> */
+    font-size: 40px;
+}
+
+
+
+/* 
+<!-- =====================DESIGN FOR ECO STARTS HERE --> */
+#eco{
+    background-image: url("images/cityimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+}
+#eco button{
+    margin-top: 80px;
+    width: 120px;
+    height: 50px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: green; 
+    color: white;
+}
+#eco h3{
+    padding-top: 40px;
+    color: green;
+    text-align: center;
+    /* <!-- =====================DESIGN FOR ECO STARTS HERE --> */
+}
+
+
+
+
+#blog{
+    color: green;
+    text-decoration: none;
+}
+
+
+/* <!-- =====================DESIGN FOR KHAN STARTS HERE --> */
+#khan{
+    margin: 20px;
+    text-align: center;
+    font-size: 40px;
+  
+}
+#khan2{
+    text-align: center;
+    margin-bottom: 10px;
+
+
+    /* <!-- =====================DESIGN FOR KHAN STARTS HERE --> */
+}
+
+
+
+
+/* 
+<!-- ===========DESIGN FOR HOMES STARTS HERE --> */
+#hom{
+    background-image: url("images/hom.jpg");
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#hom  h1{
+    padding-top: 130px;
+    color: greenyellow;
+    text-align: center;
+}
+/* <!-- ===========DESIGN FOR HOMES ENDS HERE--> */
+
+
+
+
+
+
+/* FOOTER AND BLOG SIGNS STARTS HERE */
+#foot{
+    display: flex;
+    margin: auto;
+    
+    width: 820px;   
+}
+#foothead{
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+}
+#foot1{
+    /* height: 450px; */
+    /* width: 200px; */
+    /* margin: 10px; */
+       
+}
+/* #foothead img{
+    padding-right: 35px;
+} */
+#footdetails{
+    text-align: center;
+}
+#foot1:hover{
+    color: greenyellow;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+}
+#foot2{
+   /* margin: 10px; */
+}
+#foot2details{
+    text-align: center;
+}
+#foot2:hover{
+    color: greenyellow;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+}
+#foot2head{
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+}
+#foot3:hover{
+    color: greenyellow;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+}
+#bottom{
+    background-color: rgba(0,0, 0, 0.8);
+    color: white;
+    width: 100%;
+
+}
+#bottom h4 a{
+    text-decoration: none;
+    color: white;
+}
+input{
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#bottom h3 a{
+    text-decoration: none;
+    color: white;
+}
+
+}
